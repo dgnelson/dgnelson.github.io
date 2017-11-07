@@ -1,0 +1,148 @@
+
+body {
+	font-family: Avenir, sans-serif;
+}
+
+a:visited { text-decoration: none; color:unset; }
+
+.main {
+	background: #f9f9f9;
+	height: 100%;
+}
+
+#give-form {
+}
+
+.form p {
+	text-align: right;
+}
+
+.form {
+	background: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#navbar *{
+	display: inline-block;
+}
+
+#navbar {
+	height: 65px;
+	background-color: #4E2AB4;
+	margin-bottom: 25px;
+}
+
+#nav-wordmark {
+	text-decoration: none;
+	height: 85px;
+	padding-top: 2px;
+	margin-left: 10px;
+}
+
+#nav-logo {
+	height: 80px;
+}
+
+#nav-title {
+	font-size: 30px;
+	color: white;
+}
+
+#nav-pages {
+	padding-top: 15px;
+	width: 300px;
+	float: right;
+}
+
+
+#nav-pages a{
+	width: 50px;
+	margin-right: 10px;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+}
+
+.give-content-container {
+	padding: 1em;
+	height: 80%;
+}
+
+.left-panel {
+	background:#f2f2f2;
+}
+.right-panel {
+	background: #f2f2f2;
+	overflow-y: scroll;
+}
+
+.middle-panel {
+	overflow-y:scroll;
+}
+
+.post-list {
+	list-style: none;
+}
+
+.post-list li {
+	color: black;
+	margin: 5px;
+	background: #f2f2f2;
+	height: 10em;
+}
+
+#welcome_block {
+	margin: 25px;
+	border: 3.5px solid #2f2343;
+	background-color: #9079b9;
+	color: white;
+	font-family: Avenir;
+}
+
+.content_block {
+	margin: 10px;
+	border: 5px solid black;
+	text-align: center;
+
+}
+
+.content_block_wrapper {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.content_block_element {
+	display: inline-block;
+	height: 200px;
+	width: 200px;
+	margin: 17px;
+	border: 3.5px solid #2f2343;
+	background-color: #9079b9;
+}
+
+.content_block_name {
+	text-align: center;
+	font-size: 25pt;
+	color: white;
+	text-decoration: underline;
+}
+
+.content_block_name:hover {
+	color: #2f2343;
+}
+
+.content_block_description{
+	text-align: center;
+	font-size: 15pt;
+	color: white;
+
+}
+
+#about_us_block {
+	margin: 25px;
+	border: 3.5px solid #2f2343;
+	background-color: #9079b9;
+	color: white;
+	font-family: Avenir;
+}

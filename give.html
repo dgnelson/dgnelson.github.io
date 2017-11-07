@@ -1,0 +1,134 @@
+<html>
+<head>
+   <title>Give</title>
+   <link rel="stylesheet" type="text/css" href="style.css"/>
+   <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"> -->
+
+   <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+   <!-- Latest compiled and minified Bootstrap CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- Optional theme -->
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+   <!-- Latest compiled and minified Bootstrap JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="main">
+
+   <nav id="navbar" class="">
+      <a id="nav-wordmark" href="#">
+         <img src="images/question_mark.png" id="nav-logo" class="">
+         <span id="nav-title">Free And For Help</span>
+      </a>
+      <ul class="" id="nav-pages">
+         <a class="" href="index.html">Home</a>
+         <a class="" href="give.html">Give</a>
+         <a class="" href="ask.html">Ask</a>
+         <a class="" href="learn.html">Learn</a>
+      </ul>
+   </nav>
+
+
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-3 give-content-container left-panel">
+            <input type="text" name="search" placeholder="Search..">
+         </div>
+         <div class="col-lg-6 give-content-container middle-panel">
+            <ul id="needs-list">
+               <li><div><b class="name">Johnny</b> needs <b class="category">Water</b>
+               </div></li>
+               <li><div>Sarah Needs Shelter</div></li>
+               <li><div>Nick Needs Transportation</div></li>
+               <li><div>Peggy Needs Transportation</div></li>
+               <li><div>Sasha Needs Transportation</div></li>
+               <li><div>Anne Needs Transportation</div></li>
+
+            </ul>
+         </div>
+         <div class="col-lg-3 give-content-container right-panel">
+            <h3>Have Something Else To Offer?</h3>
+            <button type="button" class="btn btn-info btn-lg"
+            data-toggle="modal" data-target="#givePost"> Give! </button>
+
+         </div>
+      </div>
+      <div id="givePost" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+              <div class="form" id="give-form">
+                  <h3> Fill Out This Form To Offer Additional Resources </h3>
+                  <form action="#">
+                      <div class="form-group">
+                          <label> First Name:</label>
+                          <input class="form-control" type="text" placeholder="First Name">
+                      </div>
+                      <div class="form-group">
+                          <label> Last Name:</label>
+                          <input class="form-control" type="text" placeholder="Last Name">
+                      </div>
+                      <div class="form-group">
+                          <label> Street Address:</label>
+                          <input class="form-control" type="text" placeholder="Street Address">
+                      </div>
+                      <div class="form-group">
+                          <label> City/Town:</label>
+                          <input class="form-control" type="text" placeholder="City/Town">
+                      </div>
+                      <div class="form-group">
+                          <label> State</label>
+                          <input class="form-control" type="text" placeholder="State">
+                      </div>
+                      <div class="form-group">
+                          <label> Zip Code:</label>
+                          <input class="form-control" type="number" placeholder="Zip Code">
+                      </div>
+                      <div class="form-group">
+                          <label> Country:</label>
+                          <input class="form-control" type="number" placeholder="Country">
+                      </div>
+                      <div class="form-group">
+                          <label> What do you want to give?</label>
+                      <div class="checkbox">
+                          <label><input type="checkbox" value="">Food/Water</label>
+                      </div>
+                      <div class="checkbox">
+                          <label><input type="checkbox" value="">Shelter</label>
+                      </div>
+                      <div class="checkbox">
+                          <label><input type="checkbox" value="">Transportation</label>
+                      </div>
+                      <div class="checkbox">
+                          <label><input type="checkbox" value="">Labor</label>
+                      </div>
+                      <div class="checkbox">
+                          <label><input type="checkbox" value="">Other</label>
+                      </div>
+                      <div class="form-group">
+                          <label for="comment">Description:</label>
+                          <textarea class="form-control" rows="5" id="comment"></textarea>
+                      </div>
+                  </div>
+
+
+                     <p>
+                     <button type="button"> Submit </button>
+                    </p>
+                  </form>
+              </div>
+          </div>
+      </div>
+
+
+   </div>
+   </div>
+
+</body>
+</html>
